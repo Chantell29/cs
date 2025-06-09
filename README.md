@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinnamon & Sage Country Cabins</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <style>
+        /* General Styles */
+        body {
+            background: linear-gradient(to bottom, #f8f5f0, #eae7e2); /* Soft beige gradient */
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            text-align: center; /* Center all text */
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin: 30px auto;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+            border-bottom: 4px solid #34495e; /* Add a border below the heading */
+            padding-bottom: 15px;
+            display: inline-block; /* Ensures the border fits the text width */
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #34495e;
+            margin: 20px auto;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #2c3e50; /* Add a border below the subheading */
+            padding-bottom: 10px;
+            display: inline-block; /* Ensures the border fits the text width */
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            color: #555;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center; /* Center the paragraph text */
+            background: rgba(255, 255, 255, 0.9); /* Slightly transparent background for readability */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            border: 1px solid #ddd; /* Add a border around the paragraph */
+        }
+
+        /* Link Styles */
+        ul {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1rem;
+            color: #333;
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin: 30px auto; /* Add spacing above and below the list */
+        }
+
+        ul li {
+            margin: 20px 0; /* Increase vertical spacing between list items */
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #006400;
+            font-weight: 500;
+            background: #ffffff;
+            padding: 15px 30px; /* Increase padding for the links */
+            border-radius: 8px; /* Slightly round the corners */
+            transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+            border: 1px solid #006400; /* Add a border around the button */
+            display: inline-block; /* Ensure the links are inline-block for better spacing */
+        }
+
+        ul li a:hover {
+            background: #006400;
+            color: #fff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+        }
+
+        /* Image Gallery Styles */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin: 30px auto;
+            max-width: 1200px;
+        }
+
+        .image-gallery figure {
+            margin: 0;
+            text-align: center;
+            border: 1px solid #ddd; /* Add a border around the figure */
+            border-radius: 10px;
+            padding: 15px;
+            background: #fff; /* Add a background color */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        }
+
+        .image-gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .image-gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-gallery figcaption {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+            font-style: italic; /* Add italic style for captions */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Cinnamon & Sage Country Cabins Dullstroom</h1>
+
+      <section class="image-gallery">
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA6fedd923fae8997cd38a7dafc050c8639e4fa203784117629cc1f54d6a3a03ad45c471cb17583a3191c3a1deeeeb43c3f734?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Front View of the Cabin">
+            <figcaption>Main Area</figcaption>
+        </figure>
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA3f254d3ea4f7faa93bc69043d94446583ecc8941078f78b51beca5a5605ab5b81f373f534d732bdb4f4bb69eae5adb19ca3e?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Side View of the Cabin">
+            <figcaption>Side Area</figcaption>
+        </figure>
+    </section>
+    <h2>About Cinnamon & Sage Country Cabins Dullstroom</h2>
+    <p>
+        This property offers guests a choice of 2 beautifully appointed cabins, all with en-suite bathrooms. Each open-plan cabin can accommodate 2 adults and 2 children and features comfortable beds, soft duvets, crisp linen and private entrances. Quality linen and bath towels are provided.
+    </p>
+    
+    <p>
+        Each unit has a kitchen equipped with a 2-plate stove, microwave, bar fridge, tea and coffee-making facilities, cutlery and crockery. The kitchen has a dining area suitable for 3 guests and the living area opens up to a verandah. Access to free Wi-Fi is available.
+    </p>
+    
+    <p>
+        Guests have access to a communal braai area. For those looking to explore the area, wine tasting, walking tours, swimming and game viewing are within easy reach. Access to secure parking is available.
+    </p>
+
+    <ul>
+        <li><a href="https://book.nightsbridge.com/35164?nbid=689">Nightsbridge Booking</a></li>
+        <li><a href="https://www.lekkeslaap.co.za/accommodation/cinnamon--sage-country-cabins">Lekker Slaap Booking</a></li>
+        <li><a href="https://www.facebook.com/photo/?fbid=491168780710429">Facebook link</a></li>
+        <li><a href="https://www.google.com/maps/place/Cinnamon+and+Sage+Country+Cabins/@-25.4131685,30.0981412,17z/data=!4m9!3m8!1s0x1eea03b9ce6a5efb:0x45646369ff6d0524!5m2!4m1!1i2!8m2!3d-25.4131685!4d30.1007161!16s%2Fg%2F11kqhbzp9n?entry=ttu&g_ep=EgoyMDI1MDQwNi4wIKXMDSoASAFQAw%3D%3D">Maps</a></li>
+    </ul>
+
+    <section class="image-gallery">
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA4f48712fdd5ab23cf3416630ffe8fdf940235426474b53575be0085f3f75acbde1f25c8e3315904b59fd08df5049ecce5157?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Back View of the Cabin">
+            <figcaption>Garden Area</figcaption>
+        </figure>
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA255c91d56b79a499beb899480eb20a1592f5f94c7737764018694c1ed09cd011057a4fbb78298f3fa1210e5c23b8fef3c92b?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Outside View of the Cabin">
+            <figcaption>Verandah Area</figcaption>
+        </figure>
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA6860ba63ab7e742cf35b49f3340657f3443244d3964bdbab8b4b9b14329ace1fc42b56884803eec9774c25791912dd84bfed?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Braai area">
+            <figcaption>Braai Area</figcaption>
+        </figure>
+        <figure>
+            <img src="https://travelground.imgix.net/AAEAAQAAAAAAAAAAAAAA8f39b903db59745616aac1f13804ad7fb0df2d24deea933a67bb31aa3164aeef5974e9feee3fed2058ea79a29ce3df6e7156?w=2400&fit=crop&auto=enhance,format,compress&q=80" alt="Parking area">
+            <figcaption>Parking Area</figcaption>
+        </figure>
+    </section>
+</body>
+
+</html>
